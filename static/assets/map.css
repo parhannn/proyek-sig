@@ -1,0 +1,41 @@
+#map {
+  height: 600px;
+  width: 100%;
+  border: 1px solid rgb(64, 112, 244);
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+#map:hover {
+  box-shadow: 0 0 10px 0 #4070f4;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    margin-top: 450px;
+  }
+
+  h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-height: 1024px) {
+  .content {
+    height: 110vh;
+  }
+
+  footer {
+    margin-top: 0px;
+  }
+}

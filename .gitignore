@@ -1,0 +1,16 @@
+# Abaikan file dan folder tertentu
+*.log
+*.pyc
+__pycache__/
+.env
+.venv
+config.py
+.vscode
+
+# Abaikan folder virtual environment
+venv/
+node_modules/
+
+# Abaikan file editor tertentu
+*.swp
+*.DS_Store
